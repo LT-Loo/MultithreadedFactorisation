@@ -6,11 +6,11 @@ The program consists of a multithreaded server and a multithreaded client proces
 
 ### Server System
 The flow diagram below shows the work flow of the server system.
-!(/ServerFlowDiagram.png)
+![](/ServerFlowDiagram.png)
 
 ### Client System
 The flow diagram below shows the work flow of the client system.
-!(/ClientFlowDiagram.png)
+![](/ClientFlowDiagram.png)
 
 ## Requirements
 Have Linux/Cygwin environment installed in your machine.
