@@ -2,15 +2,15 @@
 This is a multithreaded client-server system designed for multiprocessing integer factorisation, where each thread processes a number derived from the input by bit rotation. This program leverages advanced multithreading, inter-process communication (IPC) and synchronisation to optimise performance and resource management.
 
 ## Program Structure
-The program consists of a multithreaded server and a multithreaded client process. The communication between both processes is established using **shared memory**, where they are able to access the data stored in it. However, due to large amount of running threads trying to access data in the shared memory, a **handshaking protocol** is implemented to ensure secure and seamless data transfer. Besides, **pthread mutexes** and condition variables are used to create **semaphore** to control access of the threads to the shared memory to prevent data override.
+The program consists of a multithreaded server and a multithreaded client process. The communication between both processes is established using ***shared memory***, where they are able to access the data stored in it. However, due to large amount of running threads trying to access data in the shared memory, a ***handshaking protocol*** is implemented to ensure secure and seamless data transfer. Besides, ***pthread mutexes*** and condition variables are used to create ***semaphore*** to control access of the threads to the shared memory to prevent data override.
 
 ### Server System
 The flow diagram below shows the work flow of the server system.
-[](/ServerFlowDiagram.png)
+!(/ServerFlowDiagram.png)
 
 ### Client System
 The flow diagram below shows the work flow of the client system.
-[](/ClientFlowDiagram.png)
+!(/ClientFlowDiagram.png)
 
 ## Requirements
 Have Linux/Cygwin environment installed in your machine.
